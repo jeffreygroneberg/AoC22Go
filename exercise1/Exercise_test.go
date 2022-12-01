@@ -21,7 +21,7 @@ func TestForRealInputGetHighestCalories(t *testing.T) {
 	sumOfEntries := sumNEntriesOfSlice(entries, 1)
 
 	if sumOfEntries != 69836 {
-		t.Errorf("Expected String(%d) is not same as"+
+		t.Errorf("Expected (%d) is not same as"+
 			" actual (%d)", 69836, sumOfEntries)
 	}
 }
@@ -34,7 +34,7 @@ func TestForExampleGetHighestCaloriesTopN(t *testing.T) {
 	sumOfEntries := sumNEntriesOfSlice(entries, 3)
 
 	if sumOfEntries != 45000 {
-		t.Errorf("Expected String(%d) is not same as"+
+		t.Errorf("Expected (%d) is not same as"+
 			" actual (%d)", 45000, sumOfEntries)
 	}
 }
@@ -47,7 +47,7 @@ func TestForRealInputGetHighestCaloriesTopN(t *testing.T) {
 	sumOfEntries := sumNEntriesOfSlice(entries, 3)
 
 	if sumOfEntries != 207968 {
-		t.Errorf("Expected String(%d) is not same as"+
+		t.Errorf("Expected (%d) is not same as"+
 			" actual (%d)", 207968, sumOfEntries)
 	}
 }
